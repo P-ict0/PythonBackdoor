@@ -1,21 +1,79 @@
-MIT License
+End-User License Agreement (EULA) for PythonBackdoor
 
-Copyright (c) 2022 P-ict0
+---
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. INTRODUCTION  
+This End-User License Agreement ("Agreement") is a legal agreement between you ("User") and the owner of this repository ("Author") regarding the use of the scripts and content provided in the PythonBackdoor repository. By downloading, accessing, or using any part of this repository, you agree to abide by the terms outlined in this Agreement.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+If you do not agree to these terms, you must not use, download, or distribute any content from this repository.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+---
+
+2. PERMITTED USE  
+You are granted a limited, non-exclusive, non-transferable, and revocable** license to use the scripts in this repository only under the following conditions:  
+- ✅ Educational Purposes: Only You may use these scripts to learn about security, ethical hacking, and penetration testing.  
+- ✅ Legally Authorized Testing: You may only deploy these scripts on systems that you own or have explicit written permission to test.  
+
+---
+
+3. PROHIBITED USE  
+Any unauthorized or unlawful use of this repository is strictly prohibited. You may not:  
+- ❌ Use these scripts for malicious, illegal, or unauthorized activities.  
+- ❌ Use these scripts to gain unauthorized access to any system or network.  
+- ❌ Use these scripts for hacking, fraud, or any criminal activity.  
+- ❌ Modify, sell, or distribute these scripts for harmful or unethical purposes.  
+- ❌ Claim ownership or remove author credits from the scripts.  
+- ❌ Use this repository if you are subject to any legal restrictions that prohibit it.  
+
+Violation of these terms may result in legal consequences, and the Author reserves the right to take action against unlawful use.
+
+---
+
+4. DISCLAIMER OF WARRANTY  
+THE SCRIPTS AND CONTENT IN THIS REPOSITORY ARE PROVIDED "AS-IS", WITHOUT WARRANTY OF ANY KIND.  
+- NO GUARANTEES: The Author makes no guarantees regarding the functionality, accuracy, or security of these scripts.  
+- USE AT YOUR OWN RISK: The User assumes all responsibility for any consequences that may arise from using or misusing these scripts.  
+- NO LIABILITY: The Author is not responsible for any data loss, system damage, or legal actions resulting from the use of these scripts.  
+
+---
+
+5. LIMITATION OF LIABILITY  
+IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DAMAGES ARISING FROM THE USE OR MISUSE OF THIS REPOSITORY, INCLUDING BUT NOT LIMITED TO:  
+- System damage, data loss, or operational failures.  
+- Legal consequences resulting from unauthorized or unlawful use.  
+- Any third-party claims or liabilities.  
+
+The User agrees to indemnify and hold harmless the Author from any claims, damages, or consequences related to the use of these scripts.
+
+---
+
+6. EXPORT CONTROL COMPLIANCE  
+By using this repository, you agree to comply with all applicable local, national, and international laws regarding software and security tools.  
+You must not use or distribute these scripts in violation of any:  
+- Cybercrime laws in your jurisdiction.  
+- Export control regulations (e.g., EU laws restricting hacking tools).  
+- Privacy and data protection laws affecting ethical hacking activities.  
+
+---
+
+7. TERMINATION  
+This license automatically terminates if:  
+- The User violates any term of this Agreement.  
+- The Author decides to revoke or discontinue access to the repository.  
+
+Upon termination, the User must cease all use of the scripts and delete any copies.
+
+---
+
+8. GOVERNING LAW  
+This Agreement shall be governed by and construed in accordance with the laws of the European Union.   
+
+---
+
+9. FINAL AGREEMENT  
+By using this repository, you acknowledge that you have read and understood this Agreement and agree to be legally bound by its terms.  
+The Author reserves the right to update or modify this Agreement at any time without prior notice.
+
+---
+
+📌 If you do not accept these terms, you must immediately delete all copies of this repository and refrain from using any of its content.  
